@@ -5,7 +5,7 @@
 
 /* Very small phones (≤360px): tighten a few things */
 @media (max-width: 360px) {
-  .brand img { height: 40px; }
+  .brand img { height: 32px; }
   .hero__stats li { font-size: 0.85rem; padding: 0.5rem 0.9rem; }
   .why__item { padding: 1rem; }
   .why__icon { width: 44px; height: 44px; }
@@ -76,7 +76,6 @@
 
   .contact-item { grid-template-columns: 52px 1fr; }
 
-  .whatsapp-float__label { display: inline-block; }
 
   .hero__dots { left: auto; right: var(--gutter); bottom: clamp(1.5rem, 4vw, 3rem); }
 
@@ -94,7 +93,7 @@
   .nav-toggle,
   .mobile-nav { display: none; }
   .header-phone { display: inline-flex; }
-  .brand img { height: 54px; }
+  .brand img { height: 46px; }
 
   .hero__content { padding-bottom: 1rem; }
 
@@ -122,7 +121,7 @@
   .contact-card { position: sticky; top: calc(var(--header-h) + 1.5rem); }
 
   .footer-main {
-    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 0.7fr 1fr 1.2fr;
     gap: 3rem;
   }
   .footer-brand { grid-column: auto; }
